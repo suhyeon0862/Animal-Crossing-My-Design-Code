@@ -1,0 +1,437 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #F9F6F1;
+    justify-content: center;
+}
+
+#bigbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#maincontainer{
+    width: 1440px;
+}
+
+#menubar{
+    width: 1440px;
+    height: 76px;
+    left: 0px;
+    top: 100px;
+    margin: 0px auto;
+    background: #D4DDA3;
+    display: flex;
+    justify-content: center;
+}
+
+#menubar ul{
+    justify-content: space-between; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#FACE{
+    list-style: none; 
+    padding: 85px; 
+    user-select: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    color: black;
+    text-decoration-line: none;
+}
+
+#FASHION{
+    list-style: none; 
+    padding: 85px; 
+    user-select: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    color: black;
+    text-decoration-line: none;
+}
+
+#FLOOR{
+    list-style: none; 
+    padding: 85px; 
+    user-select: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    color: black;
+    text-decoration-line: none;
+}
+
+#ABOUT{
+    list-style: none; 
+    padding: 85px; 
+    user-select: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    color: black;
+    text-decoration-line: none;
+}
+
+#menubar ul li{
+    list-style: none; 
+    padding: 0px; 
+    user-select: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    color: black;
+    text-decoration-line: none;
+} 
+
+#MainBox{
+    display: flex;
+    width: 100%;
+    height: 2430px;
+    background: #D9D9D9;
+}
+
+#SidemenuBox{
+    width: 295px;
+    height: 2430px;
+    background: #F9F6F1;
+}
+
+#SidemenuBox ul{
+    list-style: none;
+    margin-left: 40px;
+}
+
+#FLOORT{
+    width: 187.29px;
+    height: 36.58px;
+    margin-top: 35px;
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+}
+
+#R{
+    width: 187.29px;
+    height: 36.58px;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration-line: none;
+}
+#R:hover{
+    color: #84b373
+}
+
+#SR{
+    width: 187.29px;
+    height: 36.58px;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration-line: none;
+}
+#SR:hover{
+    color: #84b373
+}
+
+#WB{
+    width: 187.29px;
+    height: 36.58px;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration-line: none;
+}
+#WB:hover{
+    color: #84b373
+}
+
+#F{
+    width: 187.29px;
+    height: 36.58px;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration-line: none;
+}
+#F:hover{
+    color: #84b373
+}
+
+#M{
+    width: 187.29px;
+    height: 36.58px;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration-line: none;
+}
+#M:hover{
+    color: #84b373
+}
+
+#SDptBox{
+    width: 1145px;
+    height: 2430px;
+    background: white;
+}
+
+#FSD{
+    position: relative;
+    width: 325px;
+    height: 41px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#SDBox1{
+    width: 1075px;
+    height: 345px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#SD_1{
+    width: 345px;
+    height: 345px;
+    left: 20px;
+    background-image: url(Mat/Mat_1.jpg);
+}
+
+#SD_2{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_2.jpg);
+}
+
+#SD_3{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_3.jpg);
+}
+#SDptBox ul{
+    height: 55px;
+    width: 1073px;
+    padding-left: 45px;
+    justify-content: space-between; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#SDptBox ul li{
+    list-style: none;  
+    user-select: none;
+    padding: 62px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+} 
+
+
+#SDBox2{
+    width: 1075px;
+    height: 345px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 46px;
+}
+#SD_4{
+    width: 345px;
+    height: 345px;
+    left: 20px;
+    background-image: url(Mat/Mat_4.jpg);
+}
+
+#SD_5{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_5.jpg);
+}
+
+#SD_6{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_6.jpg);
+}
+
+#SDBox3{
+    width: 1075px;
+    height: 345px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 46px;
+}
+#SD_7{
+    width: 345px;
+    height: 345px;
+    left: 20px;
+    background-image: url(Mat/Mat_7.jpg);
+}
+
+#SD_8{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_8.jpg);
+}
+
+#SD_9{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_9.jpg);
+}
+
+#SDBox4{
+    width: 1075px;
+    height: 345px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 46px;
+}
+#SD_10{
+    width: 345px;
+    height: 345px;
+    left: 20px;
+    background-image: url(Mat/Mat_10.jpg);
+}
+
+#SD_11{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_11.jpg);
+}
+
+#SD_12{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_12.jpg);
+}
+
+#SDBox5{
+    width: 1075px;
+    height: 345px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 46px;
+}
+#SD_13{
+    width: 345px;
+    height: 345px;
+    left: 20px;
+    background-image: url(Mat/Mat_13.jpg);
+}
+
+#SD_14{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_14.jpg);
+}
+
+#SD_15{
+    width: 345px;
+    height: 345px;
+    margin-left: 20px;
+    background-image: url(Mat/Mat_15.jpg);
+}
+
+#footer{
+    width: 1440px;
+    height: 150px;
+    background-color: #d4dda3;
+}
+
+#Footert{
+    text-align: center;
+    color: white;
+    list-style: none; 
+}
